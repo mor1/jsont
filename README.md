@@ -26,7 +26,7 @@ Jsont can be installed with `opam`:
 
     opam install jsonm jsont             # jsonm backend
     opam install js_of_ocaml jsont       # js_of_ocaml backend
-    opam isntall jsonm js_of_ocaml jsont # all backends
+    opam install jsonm js_of_ocaml jsont # all backends
 
 If you don't use `opam` consult the [`opam`](opam) file for build
 instructions.
