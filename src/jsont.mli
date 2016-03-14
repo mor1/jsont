@@ -157,7 +157,7 @@ type json =
 
 val json : json codec
 (** [json] is any JSON value using a generic JSON text representation.
-    [`Null] it its default value. *)
+    [`Null] is its default value. *)
 
 val some : 'a codec -> 'a option codec
 (** [some c] is the JSON value [c] but wrapped by [Some]. Its
